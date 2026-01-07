@@ -11,6 +11,7 @@ public enum WinningInfo {
     private final String rank;
     private final int numberCnt;
     private final boolean bonus;
+
     private final int prize;
 
     WinningInfo(String rank, int numberCnt, boolean bonus, int prize) {
