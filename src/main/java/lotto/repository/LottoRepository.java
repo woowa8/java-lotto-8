@@ -13,14 +13,10 @@ public class LottoRepository {
     }
 
     public List<Lotto> getLottos() {
-        return lottos;
+        return List.copyOf(lottos);
     }
 
     public void addLotto(Lotto lotto) {
         lottos.add(lotto);
-    }
-
-    public int getLottoAmount() {
-        return lottos.size();
     }
 }
